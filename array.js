@@ -15,6 +15,7 @@ eleArr[3]="Overwriting"
 
 //Array Method
 
+//1.push
 console.log("Array before push "+eleArr);
 
 console.log("******************************");
@@ -22,5 +23,38 @@ console.log("******************************");
 eleArr.push("Pushed new item");
 
 console.log("Array after push "+eleArr);
+
+//2.pop
+
+console.log("Array before pop "+eleArr);
+
+eleArr.pop();
+
+console.log("Array after push "+eleArr);
+
+//3.shift
+
+console.log("Array before shift "+eleArr);
+
+eleArr.shift();
+
+console.log("Array after shift "+eleArr);
+
+//4.unshift
+
+console.log("Array before unshift "+eleArr);
+eleArr.unshift("Newly_Added_Item");
+console.log("Array after unshift "+eleArr);
+
+//length
+
+let len = eleArr.length;
+console.log(len);
+
+
+
+
+
+
 
 
