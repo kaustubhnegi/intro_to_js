@@ -24,3 +24,13 @@ let a = function sub(num1,num2){
     return num1-num2;
 }
 console.log(a(3,5));
+
+//IIFE  Immediately Invoked Functions Expression
+(function(){
+    console.log("Hello from IIFE");
+})();
+
+//IIFE with Parameter
+(function(num1,num2){
+    console.log(num1/num2);
+})(10,5);
