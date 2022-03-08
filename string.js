@@ -40,4 +40,5 @@ let fullName2 = firstName + lastName;
 //split -----> return arr
 let splitted = str.split(" ");
 console.log(splitted);
-
+// https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/#basic-javascript
+0
