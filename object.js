@@ -31,4 +31,30 @@ let capAmerica = {
 }
 
 console.log(capAmerica);
+console.log(capAmerica.Friends);
+console.log(capAmerica.Friends[0]);
+console.log("\n***************************");
 
+console.log("CaptainAmerica before update\n");
+console.log(capAmerica);
+
+capAmerica.Movies = ["First Avenger","Winter Soldier","Civil War"];
+
+console.log("CaptainAmerica after update\n");
+console.log(capAmerica);
+
+
+capAmerica. sayHi(); 
+capAmerica.isAvenger  =false;
+
+console.log(capAmerica.isAvenger);
+capAmerica.isAvenger = true;
+console.log(capAmerica.isAvenger);
+
+capAmerica.Adress.Stae="Washington DC";
+
+console.log(capAmerica);
+
+// . Typecast object name to string
+console.log(capAmerica.Name);
+console.log(capAmerica['Name']);
