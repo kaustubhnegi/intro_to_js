@@ -22,6 +22,10 @@ let capAmerica = {
         Adress:{
             city: "Queens",
             Stae: "Haryana",
+        },
+
+        sayHi : function(){
+            console.log("Captain America says hi");
         }
 
 }
